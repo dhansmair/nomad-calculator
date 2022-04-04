@@ -32,15 +32,6 @@ library:
   source-dirs: src
 
 executables:
-  gui:
-    main:                gui.hs
-    source-dirs:         app
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - nomad-calculator
   cli:
     main:                cli.hs
     source-dirs:         app
