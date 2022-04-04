@@ -66,24 +66,6 @@ executable cli
     , transformers
   default-language: Haskell2010
 
-executable gui
-  main-is: gui.hs
-  other-modules:
-      Paths_nomad_calculator
-  hs-source-dirs:
-      app
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N
-  build-depends:
-      array
-    , base >=4.7 && <5
-    , gtk2hs-buildtools
-    , gtk3
-    , haskeline
-    , mtl
-    , nomad-calculator
-    , transformers
-  default-language: Haskell2010
-
 test-suite nomad-calculator-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
