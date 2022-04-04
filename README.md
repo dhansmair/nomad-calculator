@@ -2,6 +2,7 @@
 Haskell project for the course "Fortgeschrittene Funktionale Programmierung" at LMU. 
 The Nomad calculator is a simple CLI tool to evaluate mathematical expressions that also supports defining functions. Nomad also supports lambda expressions, higher order functions and partial function application. A type check ensures the semantic correctness of user input.
 
+![screenshot of the CLI](https://github.com/dhansmair/nomad-calculator/blob/main/docs/images/nomad_screenshot.png?raw=true)
 
 
 ## Setup
