@@ -1,0 +1,6 @@
+.stack-work/
+dist-newstyle/
+.idea/
+hscalc.iml
+hscalc.cabal
+*~
