@@ -41,8 +41,6 @@ library
   build-depends:
       array
     , base >=4.7 && <5
-    , gtk2hs-buildtools
-    , gtk3
     , haskeline
     , mtl
     , transformers
@@ -58,8 +56,6 @@ executable cli
   build-depends:
       array
     , base >=4.7 && <5
-    , gtk2hs-buildtools
-    , gtk3
     , haskeline
     , mtl
     , nomad-calculator
@@ -77,8 +73,6 @@ test-suite nomad-calculator-test
   build-depends:
       array
     , base >=4.7 && <5
-    , gtk2hs-buildtools
-    , gtk3
     , haskeline
     , mtl
     , nomad-calculator
